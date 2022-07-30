@@ -161,17 +161,10 @@ export default function Home({ subscription }) {
         <div className="max-w-screen-sm mx-auto text-center">
         Copyright 2022 <b> <a color='red' href='https://ayivugwe.editorx.io/ayivugwekabemba'>Ayivugwe Kabemba.</a></b>  All rights reserved.
           </div>
-          <ul className="flex justify-center">
-          <li className="max-w-screen-sm mx-auto text-center" >
-            <a href="https://www.instagram.com/Ibufuliiru/">Instagram</a>
-          </li>
-          <li> 
-            <a href='https://twitter.com/AyivugweKabemba'>Twitter</a></li>
-           <li>
-            <a href='https://www.facebook.com/Ibufuliiru/'>Facebook</a>
-          </li>
-          </ul>
-
+          <div className="max-w-screen-sm mx-auto text-center">
+        Niliri ku <span className="text-gray-500 text-xs"><a href="https://www.instagram.com/Ibufuliiru/">Instagram</a></span>
+                      na ku  <a href='https://twitter.com/AyivugweKabemba'>Twitter</a> na ku  <a href='https://www.facebook.com/Ibufuliiru/'>Facebook</a>
+        </div>
           <div className="max-w-screen-sm mx-auto text-center">
             Developed and Deployed using DatoCMS and Vercel in TypeScript.
           </div>
