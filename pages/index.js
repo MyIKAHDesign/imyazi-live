@@ -157,7 +157,20 @@ export default function Home({ subscription }) {
           </TransitionGroup>
         )}
       </div>
-      <footer>Copyright 2022 Ayivugwe Kabemba</footer>
+      <footer>
+        <div className="max-w-screen-sm mx-auto text-center">
+        Copyright 2022 <a href='https://ayivugwe.editorx.io/ayivugwekabemba'>Ayivugwe Kabemba.</a>  All rights reserved.
+          </div>
+          <div className="max-w-screen-sm mx-auto text-center">
+            <a href="https://www.instagram.com/Ibufuliiru/">Instagram</a>
+            <a href='https://twitter.com/AyivugweKabemba'>Twitter</a>
+            <a href='https://www.facebook.com/Ibufuliiru/'>Facebook</a>
+          </div>
+
+          <div className="max-w-screen-sm mx-auto text-center">
+            Developed and Deployed using DatoCMS and Vercel in TypeScript.
+          </div>
+      </footer>
     </div>
   );
 }
