@@ -69,16 +69,8 @@ export default function Home({ subscription }) {
         
       </Head>
 
-      <div className="flex flex-wrap -m-4">
-        <p> 
-          <a className='text-red-500 txt-xs' href=''>Guno mukolwa</a> 
-          <a className='text-red-500 txt-xs' href=''>Kifuliiru</a>
-          <a className='text-red-500 txt-xs' href=''>Bafuliiru</a>
-          <a className='text-red-500 txt-xs' href=''>Ibufuliiru</a>
-          <a className='text-red-500 txt-xs' href=''>Imyazi mu Kifuliiru</a>
-
-        </p>
-
+      <div className="max-w-screen-sm mx-auto text-center">
+       <p><a className='text-red-500 txt-xs' href=''>Guno mukolwa</a> | <a className='text-red-500 txt-xs' href=''>Kifuliiru</a> | <a className='text-red-500 txt-xs' href=''>Bafuliiru</a> | <a className='text-red-500 txt-xs' href=''>Ibufuliiru</a> | <a className='text-red-500 txt-xs' href=''>Imyazi mu Kifuliiru</a></p>
       </div>
 
       <div className="max-w-screen-sm mx-auto text-center">
