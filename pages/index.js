@@ -64,12 +64,7 @@ export default function Home({ subscription }) {
         <title>Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi 
           ikiri miduutu miduutu mu Kifuliiru</title>
         <link rel="icon" href="/favicon.ico" />
-        <menubar className="bg-gray-100" >
-           <menuitem className="text-gray-700" /> 
-           <menuitem className="text-gray-700" />
-        </menubar>
-
-
+        
       </Head>
 
       <div className="max-w-screen-sm mx-auto text-center">
@@ -162,6 +157,7 @@ export default function Home({ subscription }) {
           </TransitionGroup>
         )}
       </div>
+      <footer>Copyright 2022 Ayivugwe Kabemba</footer>
     </div>
   );
 }
