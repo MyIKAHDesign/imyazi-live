@@ -60,6 +60,16 @@ export default function Home({ subscription }) {
 
   return (
     <div className="text-gray-700 body-font py-12 bg-gray-100 px-10">
+      <header>
+        <menubar>
+          <menuitem>Ndondeezo</menuitem>
+          <menuitem>Guno mukolwa</menuitem>
+          <menuitem>Tuyandikire</menuitem>
+          <menuitem>Kifuliiru</menuitem>
+          <menuitem>Ibufuliiru</menuitem>
+          <menuitem>Bafuliiru</menuitem>
+        </menubar>
+      </header>
       <Head>
         <title>Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi 
           ikiri miduutu miduutu mu Kifuliiru</title>
@@ -162,8 +172,7 @@ export default function Home({ subscription }) {
         Copyright 2022 <b> <a href='https://ayivugwe.editorx.io/ayivugwekabemba'>Ayivugwe Kabemba.</a></b>  All rights reserved.
           </div>
           <div className="max-w-screen-sm mx-auto text-center">
-        Niliri ku <a className='text-red-500 txt-xs' href="https://www.instagram.com/Ibufuliiru/">Instagram</a>
-                      na ku  <a className='text-red-500 txt-xs' href='https://twitter.com/AyivugweKabemba'>Twitter</a> na ku  <a className='text-red-500 txt-xs' href='https://www.facebook.com/Ibufuliiru/'>Facebook</a>
+        Niliri ku <a className='text-red-500 txt-xs' href="https://www.instagram.com/Ibufuliiru/">Instagram</a> na ku  <a className='text-red-500 txt-xs' href='https://twitter.com/AyivugweKabemba'>Twitter</a> na ku  <a className='text-red-500 txt-xs' href='https://www.facebook.com/Ibufuliiru/'>Facebook</a> 
         </div>
           <div className="max-w-screen-sm mx-auto text-center">
             Developed and Deployed using DatoCMS and Vercel in TypeScript.
