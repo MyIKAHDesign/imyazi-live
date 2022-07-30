@@ -60,16 +60,7 @@ export default function Home({ subscription }) {
 
   return (
     <div className="text-gray-700 body-font py-12 bg-gray-100 px-10">
-      <header>
-        <menubar>
-          <menuitem>Ndondeezo</menuitem>
-          <menuitem>Guno mukolwa</menuitem>
-          <menuitem>Tuyandikire</menuitem>
-          <menuitem>Kifuliiru</menuitem>
-          <menuitem>Ibufuliiru</menuitem>
-          <menuitem>Bafuliiru</menuitem>
-        </menubar>
-      </header>
+     
       <Head>
         <title>Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi 
           ikiri miduutu miduutu mu Kifuliiru</title>
