@@ -164,7 +164,10 @@ export default function Home({ subscription }) {
           <ul className="flex justify-center">
           <li className="max-w-screen-sm mx-auto text-center" >
             <a href="https://www.instagram.com/Ibufuliiru/">Instagram</a>
-            <a href='https://twitter.com/AyivugweKabemba'>Twitter</a>
+          </li>
+          <li> 
+            <a href='https://twitter.com/AyivugweKabemba'>Twitter</a></li>
+           <li>
             <a href='https://www.facebook.com/Ibufuliiru/'>Facebook</a>
           </li>
           </ul>
