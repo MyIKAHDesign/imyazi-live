@@ -79,17 +79,17 @@ export default function Home({ subscription }) {
 
       <div className="max-w-screen-sm mx-auto text-center mt-20 mb-12">
         {status === 'connecting' ? (
-          <div>Connecting to DatoCMS...</div>
+          <div>Tugweti tugalooza imyazi...</div>
         ) : status === 'connected' ? (
           <div className="flex flex-col md:flex-row items-center justify-center">
             <span className="flex h-3 w-3 relative mb-3 md:mb-0 md:mr-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-pink-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-3 w-3 bg-pink-500"></span>
             </span>
-            <span>Connected to DatoCMS, receiving live updates!</span>
+            <span>Twalonga imyazi mihyahya, mukola mugagilonga!</span>
           </div>
         ) : (
-          <div>Connection closed</div>
+          <div>Twayuusa</div>
         )}
       </div>
 
