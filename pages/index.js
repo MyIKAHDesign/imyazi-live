@@ -72,6 +72,7 @@ export default function Home({ subscription }) {
       <div className="max-w-screen-sm mx-auto text-center">
        <p><a className='text-red-500 txt-xs' href=''>Guno mukolwa</a> | <a className='text-red-500 txt-xs' href=''>Kifuliiru</a> | <a className='text-red-500 txt-xs' href=''>Bafuliiru</a> | <a className='text-red-500 txt-xs' href=''>Ibufuliiru</a> | <a className='text-red-500 txt-xs' href=''>Imyazi mu Kifuliiru</a></p>
       </div>
+      <br/>
 
       <div className="max-w-screen-sm mx-auto text-center">
         <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
