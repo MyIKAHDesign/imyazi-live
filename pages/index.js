@@ -61,20 +61,19 @@ export default function Home({ subscription }) {
   return (
     <div className="text-gray-700 body-font py-12 bg-gray-100 px-10">
       <Head>
-        <title>Tulonge imyazi ye Kifuliiru ikiri miduutu miduutu</title>
+        <title>Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi 
+          ikiri miduutu miduutu mu Kifuliiru</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className="max-w-screen-sm mx-auto text-center">
         <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
-        Tulonge imyazi ye Kifuliiru ikiri miduutu miduutu
+        Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi 
+          ikiri miduutu miduutu mu Kifuliiru
         </p>
         <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-5xl sm:leading-10">
-          Imyazi miduutu
-        </h3>
-        <p className="mt-4 max-w-xl text-xl leading-7 text-gray-500 lg:mx-auto">
-        Tulonge imyazi ye'Kifuliiru, Ibufuliiru na handi hoshi ikiri miduutu miduutu 
-        </p>
+          Imyazi mu Kifuliiru
+        </h3>       
       </div>
 
       <div className="max-w-screen-sm mx-auto text-center mt-20 mb-12">
