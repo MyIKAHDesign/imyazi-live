@@ -4,7 +4,6 @@ import { Image, useQuerySubscription } from 'react-datocms';
 import TimeAgo from 'react-timeago';
 import ReactMarkdown from 'react-markdown';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
-import Header from '../src/components/Header';
 
 export async function getServerSideProps() {
   const graphqlRequest = {
@@ -66,11 +65,9 @@ export default function Home({ subscription }) {
         <title>Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi 
           ikiri miduutu miduutu mu Kifuliiru</title>
         <link rel="icon" href="/favicon.ico" />
-
         <meta name="description" content="Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi ikiri miduutu miduutu mu Kifuliiru" />
-           
+        
       </Head>
-      <Header/>
 
       <div className="max-w-screen-sm mx-auto text-center">
         <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
