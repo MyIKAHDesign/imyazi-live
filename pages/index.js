@@ -86,7 +86,7 @@ export default function Home({ subscription }) {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-pink-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-3 w-3 bg-pink-500"></span>
             </span>
-            <span>Twalonga imyazi mihyahya, mugweti mugagilonga imyazi mihyahya!</span>
+            <span>Twalonga imyazi mihyahya, yo yeno yooshi mubwini hano hofi!</span>
           </div>
         ) : (
           <div>Twayuusa</div>
