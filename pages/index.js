@@ -67,8 +67,8 @@ export default function Home({ subscription }) {
         <link rel="icon" href="/favicon.ico" />
 
         <meta name="description" content="Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi ikiri miduutu miduutu mu Kifuliiru" />
-        <ul>
-          <li><a href=''>Ndondeezo</a></li>
+        <ul id='navBar'>
+          <li> <button title='Ndondeezo' link=''></button> </li>
           <li><a href=''>Kifuliiru</a></li>
           <li><a href=''>Ibufuliiru</a></li>
           <li><a href=''>Bafuliiru</a></li>
@@ -77,6 +77,7 @@ export default function Home({ subscription }) {
         </ul>
         
       </Head>
+      <Header/>
 
       <div className="max-w-screen-sm mx-auto text-center">
         <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
