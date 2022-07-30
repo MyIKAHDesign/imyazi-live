@@ -65,6 +65,16 @@ export default function Home({ subscription }) {
         <title>Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi 
           ikiri miduutu miduutu mu Kifuliiru</title>
         <link rel="icon" href="/favicon.ico" />
+
+        <meta name="description" content="Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi ikiri miduutu miduutu mu Kifuliiru" />
+        <ul>
+          <li><a href=''>Ndondeezo</a></li>
+          <li><a href=''>Kifuliiru</a></li>
+          <li><a href=''>Ibufuliiru</a></li>
+          <li><a href=''>Bafuliiru</a></li>
+          <li><a href=''>Guno mukolwa</a></li>
+          <li><a href=''>Tudese</a></li>
+        </ul>
         
       </Head>
 
