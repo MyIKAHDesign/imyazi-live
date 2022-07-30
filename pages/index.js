@@ -4,6 +4,7 @@ import { Image, useQuerySubscription } from 'react-datocms';
 import TimeAgo from 'react-timeago';
 import ReactMarkdown from 'react-markdown';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
+import Header from '../src/components/Header';
 
 export async function getServerSideProps() {
   const graphqlRequest = {
@@ -67,15 +68,7 @@ export default function Home({ subscription }) {
         <link rel="icon" href="/favicon.ico" />
 
         <meta name="description" content="Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi ikiri miduutu miduutu mu Kifuliiru" />
-        <ul id='navBar'>
-          <li> <button title='Ndondeezo' link=''></button> </li>
-          <li><a href=''>Kifuliiru</a></li>
-          <li><a href=''>Ibufuliiru</a></li>
-          <li><a href=''>Bafuliiru</a></li>
-          <li><a href=''>Guno mukolwa</a></li>
-          <li><a href=''>Tudese</a></li>
-        </ul>
-        
+           
       </Head>
       <Header/>
 
