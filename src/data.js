@@ -1,3 +1,5 @@
+import NavLink from "./NavLink";
+
 export const navLinks = [
     { name: "Ndondeezo", 
      path: "/" 
