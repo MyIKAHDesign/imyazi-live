@@ -71,7 +71,7 @@ export default function Home({ subscription }) {
       </Head>
 
       <div className="max-w-screen-sm mx-auto text-center">
-        <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-5xl sm:leading-10 uppercase">
+        <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-5xl sm:leading-10">
           Imyazi mu Kifuliiru
        </h3>
       </div>
