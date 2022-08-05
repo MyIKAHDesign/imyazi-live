@@ -4,6 +4,7 @@ import { Image, useQuerySubscription } from 'react-datocms';
 import TimeAgo from 'react-timeago';
 import ReactMarkdown from 'react-markdown';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
+import Navbar from '../components/Navbar'
 
 export async function getServerSideProps() {
   const graphqlRequest = {
@@ -60,7 +61,7 @@ export default function Home({ subscription }) {
 
   return (
     <div className="text-gray-700 body-font py-12 bg-gray-100 px-10">
-     
+     <Navbar/>
       <Head>
         <title>Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi 
           ikiri miduutu miduutu mu Kifuliiru</title>
