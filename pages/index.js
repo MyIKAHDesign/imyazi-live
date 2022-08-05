@@ -172,7 +172,7 @@ export default function Home({ subscription }) {
         Niliri ku <a className='text-red-500 txt-xs' href="https://www.instagram.com/Ibufuliiru/">Instagram</a> na ku  <a className='text-red-500 txt-xs' href='https://twitter.com/AyivugweKabemba'>Twitter</a> na ku  <a className='text-red-500 txt-xs' href='https://www.facebook.com/Ibufuliiru/'>Facebook</a> 
         </div>
           <div className="max-w-screen-sm mx-auto text-center">
-            Developed and Deployed using DatoCMS and Vercel in TypeScript.
+            Developed and Deployed using DatoCMS and Vercel in Next.js.
           </div>
       </footer>
     </div>
