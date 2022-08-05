@@ -79,7 +79,7 @@ export default function Home({ subscription }) {
       <br/>
 
       <div className="max-w-screen-sm mx-auto text-center">
-       <p><a className='text-red-500 txt-xs' href=''>Guno mukolwa</a> | <a className='text-red-500 txt-xs' href=''>Kifuliiru</a> | <a className='text-red-500 txt-xs' href=''>Bafuliiru</a> | <a className='text-red-500 txt-xs' href=''>Ibufuliiru</a> | <a className='text-red-500 txt-xs' href=''>Imyazi mu Kifuliiru</a></p>
+       <p><a className='text-red-500 txt-xs' href='https://ibufuliiru.editorx.io/ibufuliiru/' target="_blank">Guno mukolwa</a> | <a className='text-red-500 txt-xs' href='https://ibufuliiru.editorx.io/ibufuliiru/' target="_blank">Kifuliiru</a> | <a className='text-red-500 txt-xs' href='https://ibufuliiru.editorx.io/ibufuliiru/' target="_blank">Bafuliiru</a> | <a className='text-red-500 txt-xs' href='https://ibufuliiru.editorx.io/ibufuliiru/' target="_blank">Ibufuliiru</a> | <a className='text-red-500 txt-xs' href='https://ibufuliiru.editorx.io/ibufuliiru/' target="_blank">Imyazi mu Kifuliiru</a></p>
       </div>
       <br/>
 
