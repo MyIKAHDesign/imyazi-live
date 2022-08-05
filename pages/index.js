@@ -66,6 +66,7 @@ export default function Home({ subscription }) {
           ikiri miduutu miduutu mu Kifuliiru</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi ikiri miduutu miduutu mu Kifuliiru" />
+        <meta name="description" content="Kifuliiru. Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi ikiri miduutu miduutu mu Kifuliiru" />
         
       </Head>
 
@@ -75,13 +76,14 @@ export default function Home({ subscription }) {
       <br/>
 
       <div className="max-w-screen-sm mx-auto text-center">
+        <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-5xl sm:leading-10 uppercase">
+          Imyazi mu Kifuliiru
+        </h3>   
+
         <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
         Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi 
           ikiri miduutu miduutu mu Kifuliiru
-        </p>
-        <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-5xl sm:leading-10">
-          Imyazi mu Kifuliiru
-        </h3>       
+        </p>    
       </div>
 
       <div className="max-w-screen-sm mx-auto text-center mt-20 mb-12">
