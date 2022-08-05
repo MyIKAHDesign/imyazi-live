@@ -60,7 +60,7 @@ export default function Home({ subscription }) {
 
   return (
     <div className="text-gray-700 body-font py-12 bg-gray-100 px-10">
-    
+     
       <Head>
         <title>Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi 
           ikiri miduutu miduutu mu Kifuliiru</title>
