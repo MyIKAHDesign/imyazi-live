@@ -71,15 +71,18 @@ export default function Home({ subscription }) {
       </Head>
 
       <div className="max-w-screen-sm mx-auto text-center">
+        <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-5xl sm:leading-10 uppercase">
+          Imyazi mu Kifuliiru
+       </h3>
+      </div>
+
+      <div className="max-w-screen-sm mx-auto text-center">
        <p><a className='text-red-500 txt-xs' href=''>Guno mukolwa</a> | <a className='text-red-500 txt-xs' href=''>Kifuliiru</a> | <a className='text-red-500 txt-xs' href=''>Bafuliiru</a> | <a className='text-red-500 txt-xs' href=''>Ibufuliiru</a> | <a className='text-red-500 txt-xs' href=''>Imyazi mu Kifuliiru</a></p>
       </div>
       <br/>
 
       <div className="max-w-screen-sm mx-auto text-center">
-        <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-5xl sm:leading-10 uppercase">
-          Imyazi mu Kifuliiru
-        </h3>   
-
+ 
         <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
         Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi 
           ikiri miduutu miduutu mu Kifuliiru
