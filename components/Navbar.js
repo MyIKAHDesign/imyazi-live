@@ -2,8 +2,9 @@ import React from 'react';
 
 const Navbar = () =>{
     return (
+        <div>Navbar</div>
         <nav>
-            <ul>
+            {/* <ul>
                 <Link href='/'> <a><li>Ndondeezo></li></a></Link>
                 <Link href='/'><a><li>Twehe</li></a></Link>
                 <Link href='/'><a><li>Kifuliiru</li></a></Link>
@@ -13,7 +14,7 @@ const Navbar = () =>{
                 <Link href='/'><a><li>Tuyandikire</li></a></Link>
                 <Link href='/'><a><li>Imyazi</li></a></Link>
 
-            </ul>
+            </ul> */}
         </nav>
     ) ;
 }
