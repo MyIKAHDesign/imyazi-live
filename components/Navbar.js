@@ -1,10 +1,53 @@
-import React from 'react';
+import Link from "next/link";
+import Image from "next/image";
+import React, { useState } from "react";
+import Logo from "./Logo";
+import NavItem from "./NavItem";
 
-const Navbar = () =>{
-    return (
-        <div>Navbar</div>
-    
-    )
-}
+const MENU_LIST = [
+  { text: "Ndondeezo", href: "/" },
+  { text: "Ibufuliiru", href: "/ibufuliiru" },
+  { text: "Kifuliiru", href: "/kifuliiru" },
+  { text: "Bafuliiru", href: "/bafuliiru" },
+  { text: "Twehe, Guno mukolwa", href: "/twehe" },
+  { text: "Tuyandikire", href: "/tuyandikire" },
+];
+const Navbar = () => {
+  const [navActive, setNavActive] = useState(null);
+  const [activeIdx, setActiveIdx] = useState(-1);
 
-export default Navbar
+  return (
+    <header>
+      <nav className={`nav`}>
+        <Link href={"/"}>
+          <a>
+            <h1 className="logo">CodeWithMarish</h1>
+          </a>
+        </Link>
+        <div
+          onClick={() => setNavActive(!navActive)}
+          className={`nav__menu-bar`}
+        >
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div className={`${navActive ? "active" : ""} nav__menu-list`}>
+          {MENU_LIST.map((menu, idx) => (
+            <div
+              onClick={() => {
+                setActiveIdx(idx);
+                setNavActive(false);
+              }}
+              key={menu.text}
+            >
+              <NavItem active={activeIdx === idx} {...menu} />
+            </div>
+          ))}
+        </div>
+      </nav>
+    </header>
+  );
+};
+
+export default Navbar;
