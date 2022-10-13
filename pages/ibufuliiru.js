@@ -1,3 +1,5 @@
+import Head from 'next/head';
+
 export default function Ibufuliiru(){
     return (
         <div className="text-gray-700 body-font py-12 bg-gray-100 px-10">
