@@ -25,18 +25,18 @@ const Navbar = () => {
       <a href={"/ibufuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
       Ibufuliiru
       </a>
-      <a href={"/ibufuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+      <a href={"/bafuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
       Bafuliiru
       </a>
-      <a href={"/ibufuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+      <a href={"/kifuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
       Kifuliiru
       </a>
-      <a href={"/ibufuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+      <a href={"/twehe"} class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
       Guno mukolwa
       </a>
-      <a href={"/ibufuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+     {/*  <a href={"/tuyandikire"} class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
       Tuyandikire
-      </a>
+      </a> */}
            
     </div>
     <div>
