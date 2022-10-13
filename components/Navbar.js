@@ -4,9 +4,6 @@ import React, { useState } from "react";
 import NavItem from "./NavItem";
 
 const Navbar = () => {
-  const [navActive, setNavActive] = useState(null);
-  const [activeIdx, setActiveIdx] = useState(-1);
-
   return (
     <header>
     
@@ -22,6 +19,9 @@ const Navbar = () => {
   </div>
   <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
     <div class="text-sm lg:flex-grow">
+    <a href={"/"} class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+      Ndoneezo
+      </a>
       <a href={"/ibufuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
       Ibufuliiru
       </a>
@@ -34,13 +34,13 @@ const Navbar = () => {
       <a href={"/twehe"} class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
       Guno mukolwa
       </a>
-     {/*  <a href={"/tuyandikire"} class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+     {  <a href={"/"} class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
       Tuyandikire
-      </a> */}
+      </a> }
            
     </div>
     <div>
-      <a href="https://ibufuliiru.editorx.io/imyazi/"   class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Gindi Myazi</a>
+      <a href="https://ibufuliiru.editorx.io/imyazi/" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0" target="_blank">Gindi Myazi</a>
     </div>
   </div>
 </nav>
