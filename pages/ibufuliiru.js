@@ -46,69 +46,8 @@ export default function Ibufuliiru(){
         )}
       </div>
 
-      {error && (
-        <div className="max-w-screen-sm my-12 mx-auto">
-          <h1 className="title-font text-lg font-bold text-gray-900 mb-3">
-            Error: {error.code}
-          </h1>
-          <div className="my-5">{error.message}</div>
-          {error.response && (
-            <pre className="bg-gray-100 p-5 mt-5 font-mono">
-              {JSON.stringify(error.response, null, 2)}
-            </pre>
-          )}
-        </div>
-      )}
-
       <div className="max-w-screen-sm mx-auto my-12">
-        {data && (
-          <TransitionGroup>
-            {data.posts.map((post) => (
-              <CSSTransition
-                key={post.id}
-                classNames={{
-                  enter: 'post-enter',
-                  enterActive: 'post-enter-active',
-                  exit: 'post-exit',
-                  exitActive: 'post-exit-active',
-                }}
-                timeout={{ enter: 1200, exit: 1200 }}
-              >
-                <div>
-                  <div className="shadow-xl rounded-lg overflow-hidden bg-white">
-                    {post.photos.map((photo) => (
-                      <Image
-                        key={photo.responsiveImage.src}
-                        className="w-full"
-                        data={photo.responsiveImage}
-                      />
-                    ))}
-                    {post.content && (
-                      <div className="p-4 md:p-8 md:text-xl content">
-                        <ReactMarkdown children={post.content} />
-                      </div>
-                    )}
-                  </div>
-                  <div className="mt-4 grid grid-cols-2 text-xs md:text-sm text-gray-500 md:px-8 items-center pb-12">
-                    <div className="flex items-center">
-                      <div className="w-8 h-8 relative">
-                        <Image
-                          className="rounded-full mr-2 shadow"
-                          layout="fill"
-                          data={post.author.avatar.responsiveImage}
-                        />
-                      </div>
-                      <div className="pl-2">{post.author.name}</div>
-                    </div>
-                    <div className="text-right">
-                      <TimeAgo date={post._firstPublishedAt} />
-                    </div>
-                  </div>
-                </div>
-              </CSSTransition>
-            ))}
-          </TransitionGroup>
-        )}
+        <p>Ibufuliiru</p>
       </div>
       <footer>
         <div className="max-w-screen-sm mx-auto text-center">
