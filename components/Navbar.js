@@ -21,7 +21,7 @@ const Navbar = () => {
       <nav className={`nav`}>
         <Link href={"/"}>
           <a>
-            <h1 className="logo">CodeWithMarish</h1>
+            <h1 className="logo">Imyazi mu Kifuliiru</h1>
           </a>
         </Link>
         <div
