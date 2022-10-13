@@ -1,5 +1,8 @@
 export default function Bafuliiru(){
     return (
-        <div>Bafuliiru</div>
+        <div>
+        <Navbar/>
+        <title>Bafuliiru</title> 
+        </div>
     );
 }

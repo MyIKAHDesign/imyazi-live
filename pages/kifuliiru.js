@@ -1,5 +1,7 @@
 export default function Kifuliiru(){
     return (
-       <div>Kifuliiru</div>
+       <div><Navbar/>
+       <title>Kifuliiru</title>
+       </div>
     );
 }

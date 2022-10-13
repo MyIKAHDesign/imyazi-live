@@ -1,6 +1,11 @@
+import Navbar from "../../components/Navbar";
 
 export default function Umwazi(){
     return (
-        <div>Umwazi</div>
+        
+        <div>
+            <Navbar/>
+            <div>Umwazi</div>
+            </div>
     );
 }
