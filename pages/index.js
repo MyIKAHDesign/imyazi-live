@@ -60,8 +60,10 @@ export default function Home({ subscription }) {
   const { data, error, status } = useQuerySubscription(subscription);
 
   return (
+
+    <div> <Navbar/>
     <div className="text-gray-700 body-font py-12 bg-gray-100 px-10">
-     <Navbar/>
+    
       <Head>
         <title>Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi 
           ikiri miduutu miduutu mu Kifuliiru</title>
@@ -183,6 +185,7 @@ export default function Home({ subscription }) {
             Developed and Deployed using DatoCMS and Vercel in Next.js.
           </div>
       </footer>
+    </div>
     </div>
   );
 }

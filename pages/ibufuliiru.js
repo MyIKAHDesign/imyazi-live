@@ -3,9 +3,10 @@ import Navbar from '../components/Navbar';
 
 export default function Ibufuliiru(){
     return (
+      <div> <Navbar/>
         <div className="text-gray-700 body-font py-12 bg-gray-100 px-10">
 
-        <Navbar/>
+       
      
       <Head>
         <title>Tulonge imyazi ye'Bufuliiru mu Kifuliiru. Menya ibimudetwa ku bufuliiru</title>
@@ -49,7 +50,7 @@ export default function Ibufuliiru(){
           </div>
       </footer>
     </div>
-  
+    </div>
     );
 }
 
