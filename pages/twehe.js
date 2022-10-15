@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 export default function Twehe() {
@@ -49,6 +50,7 @@ export default function Twehe() {
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

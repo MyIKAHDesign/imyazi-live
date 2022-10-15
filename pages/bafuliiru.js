@@ -1,11 +1,12 @@
 import Navbar from "../components/Navbar";
 import Head from "next/head";
+import Footer from "../components/Footer";
 
-export default function Bafuliiru(){
-    return (
-        <div>
-        <Navbar/>
-        <div text-gray-700 body-font py-12 bg-gray-100 px-10>
+export default function Bafuliiru() {
+  return (
+    <div>
+      <Navbar />
+      <div text-gray-700 body-font py-12 bg-gray-100 px-10>
         <Head>
           <title>
             Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na
@@ -43,14 +44,13 @@ export default function Bafuliiru(){
         </Head>
 
         <div className="max-w-screen-sm mx-auto text-center">
- 
-        <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
-        Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi 
-          ikiri miduutu miduutu mu Kifuliiru
-        </p>    
-      </div>
-
-      </div>
+          <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
+            Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na
+            byooshi ikiri miduutu miduutu mu Kifuliiru
+          </p>
         </div>
-    );
+      </div>
+      <Footer />
+    </div>
+  );
 }

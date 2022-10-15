@@ -5,6 +5,7 @@ import TimeAgo from "react-timeago";
 import ReactMarkdown from "react-markdown";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export async function getServerSideProps() {
   const graphqlRequest = {
@@ -235,44 +236,7 @@ export default function Home({ subscription }) {
             </TransitionGroup>
           )}
         </div>
-        <footer>
-          <div className="max-w-screen-sm mx-auto text-center">
-            Copyright 2022{" "}
-            <b>
-              {" "}
-              <a href="https://ayivugwe.editorx.io/ayivugwekabemba">
-                Ayivugwe Kabemba.
-              </a>
-            </b>{" "}
-            All rights reserved.
-          </div>
-          <div className="max-w-screen-sm mx-auto text-center">
-            Niliri ku{" "}
-            <a
-              className="text-red-500 txt-xs"
-              href="https://www.instagram.com/Ibufuliiru/"
-            >
-              Instagram
-            </a>{" "}
-            na ku{" "}
-            <a
-              className="text-red-500 txt-xs"
-              href="https://twitter.com/AyivugweKabemba"
-            >
-              Twitter
-            </a>{" "}
-            na ku{" "}
-            <a
-              className="text-red-500 txt-xs"
-              href="https://www.facebook.com/Ibufuliiru/"
-            >
-              Facebook
-            </a>
-          </div>
-          <div className="max-w-screen-sm mx-auto text-center">
-            Developed and Deployed using DatoCMS and Vercel in Next.js.
-          </div>
-        </footer>
+        <Footer />
       </div>
     </div>
   );
