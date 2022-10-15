@@ -1,45 +1,50 @@
 export default function DefaultContainer() {
   return (
     <div>
-      <aside class="overflow-hidden bg-[url(https://images.unsplash.com/photo-1660294120418-32d39da9ab83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=400&w=800&q=80)] bg-center bg-no-repeat bg-cover">
-        <div class="p-8 md:p-12 lg:px-16 lg:py-24 bg-slate-900/50">
-          <div class="max-w-lg text-center sm:text-left">
-            <h2 class="text-2xl font-extrabold text-white sm:text-3xl md:text-5xl mb-2">
+      <section class="bg-white dark:bg-gray-900">
+        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+          <div class="mr-auto place-self-center lg:col-span-7">
+            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
             Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na
             byooshi ikiri miduutu miduutu mu Kifuliiru.
-            </h2>
-
-            <p class="max-w-md text-white/90 md:mt-6 md:text-lg md:leading-relaxed md:block">
+            </h1>
+            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
             Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na
             byooshi ikiri miduutu miduutu mu Kifuliiru.
             </p>
-
-            <div class="mt-4 sm:mt-8">
-              <a
-                class="inline-flex items-center px-8 py-3 text-white transition bg-gray-900 rounded-full shadow-lg focus:outline-none focus:ring focus:ring-yellow-400 hover:bg-gray-800"
-                href="#"
+            <a
+              href="#"
+              class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+            >
+              Menya bingi
+              <svg
+                class="w-5 h-5 ml-2 -mr-1"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <span class="text-sm font-medium"> Menya bingi hano </span>
-
-                <svg
-                  class="w-5 h-5 ml-3"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M17 8l4 4m0 0l-4 4m4-4H3"
-                  />
-                </svg>
-              </a>
-            </div>
+                <path
+                  fill-rule="evenodd"
+                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </a>
+            <a
+              href="#"
+              class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            >
+              Tuyandikire
+            </a>
+          </div>
+          <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+            <img
+              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png"
+              alt="mockup"
+            />
           </div>
         </div>
-      </aside>
+      </section>
     </div>
   );
 }
