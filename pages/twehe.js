@@ -10,8 +10,7 @@ export default function Twehe() {
 
       <Head>
         <title>
-          Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi
-          ikiri miduutu miduutu mu Kifuliiru
+          Twehe
         </title>
         <link rel="icon" href="/favicon.ico" />
         <meta
