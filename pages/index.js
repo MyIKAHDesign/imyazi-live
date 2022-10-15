@@ -99,7 +99,7 @@ export default function Home({ subscription }) {
             content="Imikolwa yitu. Tulonge imyazi ye mikolwa ya'Bafuliiru mu Kifuliiru namu zindi ndeto zooshi. Imikolwa kwoshi kwo yangaba iliri. Tuyegerere tumenye bingi. Konbwa bweneene"
           />
         </Head>
-         <div className="max-w-screen-sm mx-auto text-center mt-20 mb-12">
+        <div className="max-w-screen-sm mx-auto text-center mt-20 mb-12">
           {status === "connecting" ? (
             <div>Tugweti tugalooza imyazi...</div>
           ) : status === "connected" ? (
@@ -158,32 +158,34 @@ export default function Home({ subscription }) {
                         <div className="p-4 md:p-8 md:text-xl content">
                           <ReactMarkdown children={post.content} />
                         </div>
-                        
                       )}
                       {
-                       <div className="mt-4 grid grid-cols-2 text-xs md:text-sm text-gray-500 md:px-8 items-center pb-12">
-                       <div className="flex items-center">
-                         <div className="w-8 h-8 relative">
-                           <Image
-                             className="rounded-full mr-2 shadow"
-                             layout="fill"
-                             data={post.author.avatar.responsiveImage}
-                           />
-                         </div>
-                         <div className="pl-2">{post.author.name}</div>
-                       </div>
-                       <div className="text-right">
-                         <TimeAgo date={post._firstPublishedAt} />
-                       </div>
-                       </br>
+                        <div className="mt-4 grid grid-cols-2 text-xs md:text-sm text-gray-500 md:px-8 items-center pb-12">
+                          <div className="flex items-center">
+                            <div className="w-8 h-8 relative">
+                              <Image
+                                className="rounded-full mr-2 shadow"
+                                layout="fill"
+                                data={post.author.avatar.responsiveImage}
+                              />
+                            </div>
+                            <div className="pl-2">{post.author.name}</div>
+                          </div>
+                          <div className="text-right">
+                            <TimeAgo date={post._firstPublishedAt} />
+                          </div>
+                          <br />
 
-                       <button class="bg-grey-light hover:bg-grey text-grey-darkest font-bold py-2 px-4 rounded inline-flex items-center">
-  <svg class="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
-  <span>Longa guno mwazi</span>
-</button>
-</br>
-
-                     </div> 
+                          <button
+                            type="button"
+                            data-mdb-ripple="true"
+                            data-mdb-ripple-color="light"
+                            class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                          >
+                            Longa guno mwazi
+                          </button>
+                          <br />
+                        </div>
                       }
                     </div>
                     <div className="mt-4 grid grid-cols-2 text-xs md:text-sm text-gray-500 md:px-8 items-center pb-12">
