@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Head from "next/head";
 import Footer from "../components/Footer";
+import DefaultContainer from "../components/DefaultContainer";
 
 export default function Kifuliiru() {
   return (
@@ -44,10 +45,7 @@ export default function Kifuliiru() {
         </Head>
 
         <div className="max-w-screen-sm mx-auto text-center">
-          <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
-            Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na
-            byooshi ikiri miduutu miduutu mu Kifuliiru
-          </p>
+          <DefaultContainer/>
         </div>
       </div>
       <Footer />
