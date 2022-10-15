@@ -44,9 +44,8 @@ export default function Bafuliiru() {
           />
         </Head>
 
-        <div className="max-w-screen-sm mx-auto text-center">
-          <DefaultContainer />
-        </div>
+        <DefaultContainer />
+        
       </div>
       <Footer />
     </div>

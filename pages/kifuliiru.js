@@ -44,10 +44,9 @@ export default function Kifuliiru() {
           />
         </Head>
 
-        <div className="max-w-screen-sm mx-auto text-center">
-          <DefaultContainer/>
-        </div>
+       
       </div>
+      <DefaultContainer/>
       <Footer />
     </div>
   );

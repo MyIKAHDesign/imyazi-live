@@ -10,7 +10,7 @@ export default function Twehe() {
 
       <Head>
         <title>
-          Twehe
+          Menya bingi ku Twehe. Tuliri Bafuliiru, Bana be'Bufuliiru. Umufuliiru Ashobwiri.
         </title>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -43,9 +43,7 @@ export default function Twehe() {
         />
       </Head>
 
-      <div className="max-w-screen-sm mx-auto text-center">
-        <DefaultContainer />
-      </div>
+      <DefaultContainer />
 
       <Footer />
     </div>

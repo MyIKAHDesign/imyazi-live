@@ -62,7 +62,7 @@ export default function Home({ subscription }) {
 
   return (
     <div>
-      {" "}
+     
       <Navbar />
       <div className="text-gray-700 body-font py-12 bg-gray-100 px-10">
         <Head>
@@ -236,8 +236,9 @@ export default function Home({ subscription }) {
             </TransitionGroup>
           )}
         </div>
-        <Footer />
+        
       </div>
+      <Footer />
     </div>
   );
 }
