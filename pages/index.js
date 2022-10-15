@@ -62,7 +62,7 @@ export default function Home({ subscription }) {
 
   return (
     <div>
-     
+    
       <Navbar />
       <div className="text-gray-700 body-font py-12 bg-gray-100 px-10">
         <Head>
@@ -100,61 +100,7 @@ export default function Home({ subscription }) {
             content="Imikolwa yitu. Tulonge imyazi ye mikolwa ya'Bafuliiru mu Kifuliiru namu zindi ndeto zooshi. Imikolwa kwoshi kwo yangaba iliri. Tuyegerere tumenye bingi. Konbwa bweneene"
           />
         </Head>
-
-        <div className="max-w-screen-sm mx-auto text-center">
-          <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-5xl sm:leading-10">
-            Imyazi mu Kifuliiru
-          </h3>
-        </div>
-
-        <br />
-
-        <div className="max-w-screen-sm mx-auto text-center">
-          <p>
-            <a
-              className="text-red-500 txt-xs"
-              href="https://ibufuliiru.editorx.io/ibufuliiru/"
-              target="_blank"
-            >
-              Guno mukolwa
-            </a>{" "}
-            |{" "}
-            <a
-              className="text-red-500 txt-xs"
-              href="https://ibufuliiru.editorx.io/ibufuliiru/"
-              target="_blank"
-            >
-              Kifuliiru
-            </a>{" "}
-            |{" "}
-            <a
-              className="text-red-500 txt-xs"
-              href="https://ibufuliiru.editorx.io/ibufuliiru/"
-              target="_blank"
-            >
-              Bafuliiru
-            </a>{" "}
-            |{" "}
-            <a
-              className="text-red-500 txt-xs"
-              href="https://ibufuliiru.editorx.io/ibufuliiru/"
-              target="_blank"
-            >
-              Ibufuliiru
-            </a>{" "}
-            |{" "}
-            <a
-              className="text-red-500 txt-xs"
-              href="https://ibufuliiru.editorx.io/ibufuliiru/"
-              target="_blank"
-            >
-              Imyazi mu Kifuliiru
-            </a>
-          </p>
-        </div>
-        <br />
-
-        <div className="max-w-screen-sm mx-auto text-center mt-20 mb-12">
+         <div className="max-w-screen-sm mx-auto text-center mt-20 mb-12">
           {status === "connecting" ? (
             <div>Tugweti tugalooza imyazi...</div>
           ) : status === "connected" ? (
@@ -236,9 +182,8 @@ export default function Home({ subscription }) {
             </TransitionGroup>
           )}
         </div>
-        
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }
