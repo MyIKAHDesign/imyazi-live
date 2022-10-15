@@ -62,7 +62,6 @@ export default function Home({ subscription }) {
 
   return (
     <div>
-    
       <Navbar />
       <div className="text-gray-700 body-font py-12 bg-gray-100 px-10">
         <Head>
@@ -159,7 +158,27 @@ export default function Home({ subscription }) {
                         <div className="p-4 md:p-8 md:text-xl content">
                           <ReactMarkdown children={post.content} />
                         </div>
+                        
                       )}
+                      {
+                       <div className="mt-4 grid grid-cols-2 text-xs md:text-sm text-gray-500 md:px-8 items-center pb-12">
+                       <div className="flex items-center">
+                         <div className="w-8 h-8 relative">
+                           <Image
+                             className="rounded-full mr-2 shadow"
+                             layout="fill"
+                             data={post.author.avatar.responsiveImage}
+                           />
+                         </div>
+                         <div className="pl-2">{post.author.name}</div>
+                       </div>
+                       <div className="text-right">
+                         <TimeAgo date={post._firstPublishedAt} />
+                       </div>
+
+                       <button>Soma bingi</button>
+                     </div> 
+                      }
                     </div>
                     <div className="mt-4 grid grid-cols-2 text-xs md:text-sm text-gray-500 md:px-8 items-center pb-12">
                       <div className="flex items-center">
