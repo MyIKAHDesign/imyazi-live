@@ -176,6 +176,7 @@ export default function Home({ subscription }) {
                           </div>
                           <br />
 
+                          <div>
                           <button
                             type="button"
                             data-mdb-ripple="true"
@@ -184,6 +185,7 @@ export default function Home({ subscription }) {
                           >
                             Longa guno mwazi
                           </button>
+                          </div>
                           <br />
                         </div>
                       }
