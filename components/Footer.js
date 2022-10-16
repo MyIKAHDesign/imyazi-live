@@ -4,16 +4,16 @@ export default function Footer() {
     <footer class="bg-white dark:bg-gray-900">
       <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
         <div>
-          <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-gray-400">Company</h2>
+          <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-gray-400">GUNO MUKOLWA</h2>
           <ul class="text-gray-500 dark:text-gray-400">
             <li class="mb-4">
-              <a href="/twehe" class=" hover:underline">Guno mukolwa</a>
+              <a href="/twehe" class=" hover:underline">Twehe</a>
             </li>
             <li class="mb-4">
               <a href="#" class="hover:underline">Tukolanwe</a>
             </li>
             <li class="mb-4">
-              <a href="#" class="hover:underline">twehe</a>
+              <a href="#" class="hover:underline">Bye'Kifuliiru</a>
             </li>
             <li class="mb-4">
               <a href="/" class="hover:underline">Imyazi</a>
