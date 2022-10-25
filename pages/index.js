@@ -149,7 +149,7 @@ export default function Home({ subscription }) {
                     <div className="shadow-xl rounded-lg overflow-hidden bg-white">
                       {post.photos.map((photo) => (
                         <a
-                        href="/imyazi/[pid].js"
+                        href="/imyazi/umwazi"
                       >
                         <Image
                           key={photo.responsiveImage.src}
