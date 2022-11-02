@@ -157,7 +157,7 @@ export default function Home({ subscription }) {
                       {post.photos.map((photo) => (
                       
                       <a
-                        href={`/posts/${slug}`}               
+                        href="/posts/slug"               
                       >
                         <Image
                           key={photo.responsiveImage.src}
