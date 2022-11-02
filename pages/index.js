@@ -166,11 +166,7 @@ export default function Home({ subscription }) {
                         />
                         </a>
                       ))}
-                      {post.title && (
-                        <div className="p-4 md:p-8 md:text-xl content">
-                          <ReactMarkdown children={post.title} />
-                        </div>
-                      )}
+                     
                       {post.content && (
                         <div className="p-4 md:p-8 md:text-xl content">
                           <ReactMarkdown children={post.content} />
