@@ -11,13 +11,17 @@ export default function Ibufuliiru() {
       <div className="text-gray-700 body-font py-12 bg-gray-100 px-10">
         <Head>
           <title>
-            Tulonge imyazi ye'Bufuliiru mu Kifuliiru. Menya ibimudetwa ku
+            Ibufuliiru. Tulonge imyazi ye'Bufuliiru mu Kifuliiru. Menya ibimudetwa ku
             bufuliiru
           </title>
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
-            content="Tulonge imyazi ye'Bufuliiru mu Kifuliiru. Menya ibimudetwa ku bufuliiru. Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi ikiri miduutu miduutu mu Kifuliiru"
+            content="Ibufuliiru."
+          />
+          <meta
+            name="description"
+            content="Ibufuliiru. Tulonge imyazi ye'Bufuliiru mu Kifuliiru. Menya ibimudetwa ku bufuliiru. Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi ikiri miduutu miduutu mu Kifuliiru"
           />
           <meta
             name="description"
