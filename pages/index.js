@@ -14,6 +14,7 @@ export async function getServerSideProps() {
       query HomePage($limit: IntType) {
         posts: allPosts(first: $limit, orderBy:_firstPublishedAt_DESC) {
           id
+          title
           content
           _firstPublishedAt
           photos {
