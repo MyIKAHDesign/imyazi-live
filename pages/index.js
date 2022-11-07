@@ -99,11 +99,11 @@ export default function Home({ subscription }) {
             content="Imikolwa yitu. Tulonge imyazi ye mikolwa ya'Bafuliiru mu Kifuliiru namu zindi ndeto zooshi. Imikolwa kwoshi kwo yangaba iliri. Tuyegerere tumenye bingi. Konbwa bweneene"
           />
 
-          <meta property="og:url"                content="https://imyazimukifuliiru.vercel.app/" />
-          <meta property="og:type"               content="article" />
-          <meta property="og:title"              content="Imyazi mu Kifuliiru. Myazi ye'Bufuliiru na handi hoshi." />
-          <meta property="og:description"        content="Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi ikiri miduutu miduutu mu Kifuliiru" />
-          <meta property="og:image"              content="https://static.wixstatic.com/media/11062b_a257f6cc29a34ad1ab04915d62831911~mv2_d_6144_4080_s_4_2.jpg/v1/fill/w_675,h_900,fp_0.55_0.34,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_a257f6cc29a34ad1ab04915d62831911~mv2_d_6144_4080_s_4_2.jpg" />
+          <meta property="og:url" content="https://imyazimukifuliiru.vercel.app/" />
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content="Imyazi mu Kifuliiru. Myazi ye'Bufuliiru na handi hoshi." />
+          <meta property="og:description" content="Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi ikiri miduutu miduutu mu Kifuliiru" />
+          <meta property="og:image" content="https://static.wixstatic.com/media/11062b_a257f6cc29a34ad1ab04915d62831911~mv2_d_6144_4080_s_4_2.jpg/v1/fill/w_675,h_900,fp_0.55_0.34,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_a257f6cc29a34ad1ab04915d62831911~mv2_d_6144_4080_s_4_2.jpg" />
 
         </Head>
         <div className="max-w-screen-sm mx-auto text-center mt-20 mb-12">
@@ -155,24 +155,24 @@ export default function Home({ subscription }) {
                   <div>
                     <div className="shadow-xl rounded-lg overflow-hidden bg-white">
                       {post.photos.map((photo) => (
-                      
-                      <a
-                        href="/imyazi/mwazi1"               
-                      >
-                        <Image
-                          key={photo.responsiveImage.src}
-                          className="w-full"
-                          data={photo.responsiveImage}
-                        />
+
+                        <a
+                          href="/imyazi/${encodeURIComponent(post.slug)}"
+                        >
+                          <Image
+                            key={photo.responsiveImage.src}
+                            className="w-full"
+                            data={photo.responsiveImage}
+                          />
                         </a>
                       ))}
-                     
+
                       {post.content && (
                         <div className="p-4 md:p-8 md:text-xl content">
                           <ReactMarkdown children={post.content} />
                         </div>
                       )}
-                      
+
                     </div>
                     <div className="mt-4 grid grid-cols-2 text-xs md:text-sm text-gray-500 md:px-8 items-center pb-12">
                       <div className="flex items-center">
