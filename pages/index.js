@@ -171,7 +171,7 @@ export default function Home({ subscription }) {
                       )}
 
                       {
-                        <Link href={`/imyazi/${encodeURIComponent(post.slug)}`}>
+                        <Link class="p-4 md:p-8 md:text-xl content" href={`/imyazi/${encodeURIComponent(post.slug)}`}>
                           <a>Soma bingi</a>
                         </Link>
                       }
