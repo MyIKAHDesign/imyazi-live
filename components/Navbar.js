@@ -17,20 +17,20 @@ const Navbar = () => {
           </button>
         </div>
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-          <div class="text-sm lg:flex-grow">
-            <a href={"/"} class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+          <div class="text-white lg:flex-grow">
+            <a href={"/"} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
               Ndondeezo
             </a>
-            <a href={"/ibufuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            <a href={"/ibufuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
               Ibufuliiru
             </a>
-            <a href={"/bafuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            <a href={"/bafuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
               Bafuliiru
             </a>
-            <a href={"/kifuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            <a href={"/kifuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
               Kifuliiru
             </a>
-            <a href={"/twehe"} class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            <a href={"/twehe"} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
               Guno mukolwa
             </a>
             <a href="https://ibufuliiru.editorx.io/ibufuliiru/tuyandikire" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" target="_blank">
