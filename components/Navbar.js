@@ -33,9 +33,11 @@ const Navbar = () => {
             <a href={"/twehe"} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
               Guno mukolwa
             </a>
-            <a href="https://ibufuliiru.editorx.io/ibufuliiru/tuyandikire" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" target="_blank">
+            <a href="https://ibufuliiru.editorx.io/ibufuliiru/tuyandikire" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4" target="_blank">
               Tuyandikire
             </a>
+           
+            <Link class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4" href='/twehe'>Guno mukolwa 2</Link>
 
           </div>
           <div>
