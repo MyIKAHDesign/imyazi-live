@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import { request } from "../lib/datocms";
 import { Image, useQuerySubscription } from "react-datocms";
 import TimeAgo from "react-timeago";
@@ -155,16 +156,12 @@ export default function Home({ subscription }) {
                   <div>
                     <div className="shadow-xl rounded-lg overflow-hidden bg-white">
                       {post.photos.map((photo) => (
+                        <Image
+                          key={photo.responsiveImage.src}
+                          className="w-full"
+                          data={photo.responsiveImage}
+                        />
 
-                        <a
-                          href="/imyazi/${encodeURIComponent(post.slug)}"
-                        >
-                          <Image
-                            key={photo.responsiveImage.src}
-                            className="w-full"
-                            data={photo.responsiveImage}
-                          />
-                        </a>
                       ))}
 
                       {post.content && (
@@ -172,6 +169,12 @@ export default function Home({ subscription }) {
                           <ReactMarkdown children={post.content} />
                         </div>
                       )}
+
+                      {
+                        <Link href={`/imyazi/${encodeURIComponent(post.slug)}`}>
+                          <a>Soma bingi</a>
+                        </Link>
+                      }
 
                     </div>
                     <div className="mt-4 grid grid-cols-2 text-xs md:text-sm text-gray-500 md:px-8 items-center pb-12">
