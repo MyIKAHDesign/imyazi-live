@@ -38,19 +38,19 @@ const Navbar = () => {
               Ndondeezo
             </a> */}
 
-          <a href={"/"} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+          <a href={"/"} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-red mr-4">
               Ndondeezo
             </a>
-            <a href={"/ibufuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+            <a href={"/ibufuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-red hover:text-white mr-4">
               Ibufuliiru
             </a>
-            <a href={"/bafuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+            <a href={"/bafuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-red hover:text-white mr-4">
               Bafuliiru
             </a>
-            <a href={"/kifuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+            <a href={"/kifuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-red hover:text-white mr-4">
               Kifuliiru
             </a>
-            <a href={"/twehe"} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+            <a href={"/twehe"} class="block mt-4 lg:inline-block lg:mt-0 text-red hover:text-white mr-4">
               Guno mukolwa
             </a>
           </div>
