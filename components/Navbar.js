@@ -19,7 +19,7 @@ const Navbar = () => {
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
           <div class="text-white lg:flex-grow">
            
-          {""}
+          {/* {""}
           <Link class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-red mr-4 space-x-0.5 space-y-0.5" href='/'>Ndondeezo</Link>
           {""}
           <Link class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-red mr-4 space-x-0.5 space-y-0.5" href='/ibufuliiru'>Ibufuliiru</Link>
@@ -33,7 +33,7 @@ const Navbar = () => {
           <Link class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-red mr-4 space-x-0.5 space-y-0.5" href='/twehe'>Guno mukolwa</Link>
           {""}
           <Link class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-red mr-4 space-x-0.5 space-y-0.5" href='https://ibufuliiru.editorx.io/ibufuliiru/tuyandikire'>Tuyandikire</Link>
-          {""}
+          {""} */}
             {/* <a href={"/"} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
               Ndondeezo
             </a> */}
@@ -41,10 +41,18 @@ const Navbar = () => {
           <a href={"/"} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
               Ndondeezo
             </a>
-
             <a href={"/ibufuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
               Ibufuliiru
-            </a>  
+            </a>
+            <a href={"/bafuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+              Bafuliiru
+            </a>
+            <a href={"/kifuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+              Kifuliiru
+            </a>
+            <a href={"/twehe"} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+              Guno mukolwa
+            </a>
           </div>
           <div>
             <a href="https://ibufuliiru.editorx.io/imyazi/" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0" target="_blank">Gindi Myazi</a>
