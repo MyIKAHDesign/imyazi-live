@@ -37,7 +37,14 @@ const Navbar = () => {
             {/* <a href={"/"} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
               Ndondeezo
             </a> */}
-            
+
+          <a href={"/"} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+              Ndondeezo
+            </a>
+
+            <a href={"/ibufuliiru"} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+              Ibufuliiru
+            </a>  
           </div>
           <div>
             <a href="https://ibufuliiru.editorx.io/imyazi/" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0" target="_blank">Gindi Myazi</a>

@@ -74,6 +74,30 @@ export default function Home({ subscription }) {
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
+            content="Imyazi"
+          />
+          <meta
+            name="description"
+            content="Imyazi ye Bufuliiru"
+          />
+          <meta
+            name="description"
+            content="Imyazi ye Bufuliiru mu Kifuliiru"
+          />
+          <meta
+            name="description"
+            content="Imyazi ye Bufuliiru, Bafuliiru ne Kifuliiru mu Kifuliiru"
+          />
+          <meta
+            name="description"
+            content="Imyazi ye' mwitu"
+          />
+          <meta
+            name="description"
+            content="Imwitu Ibufuliiru"
+          />
+          <meta
+            name="description"
             content="Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi ikiri miduutu miduutu mu Kifuliiru"
           />
           <meta
