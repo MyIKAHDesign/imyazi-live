@@ -19,13 +19,13 @@ const Navbar = () => {
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
           <div class="text-white lg:flex-grow">
            
-          <Link class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 space-x-0.5 space-y-0.5" href='/'>Ndondeezo</Link>
-          <Link class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 space-x-0.5 space-y-0.5" href='/ibufuliiru'>Ibufuliiru</Link>
-          <Link class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 space-x-0.5 space-y-0.5" href='/bafuliiru'>Bafuliiru</Link>
-          <Link class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 space-x-0.5 space-y-0.5" href='/kifuliiru'>Kifuliiru</Link>
-          <Link class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 space-x-0.5 space-y-0.5" href='/kifuliiru'>Kifuliiru</Link>
-          <Link class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 space-x-0.5 space-y-0.5" href='/twehe'>Guno mukolwa</Link>
-          <Link class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4 space-x-0.5 space-y-0.5" href='https://ibufuliiru.editorx.io/ibufuliiru/tuyandikire'>Tuyandikire</Link>
+          <Link class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-red mr-4 space-x-0.5 space-y-0.5" href='/'>Ndondeezo</Link>
+          <Link class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-red mr-4 space-x-0.5 space-y-0.5" href='/ibufuliiru'>Ibufuliiru</Link>
+          <Link class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-red mr-4 space-x-0.5 space-y-0.5" href='/bafuliiru'>Bafuliiru</Link>
+          <Link class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-red mr-4 space-x-0.5 space-y-0.5" href='/kifuliiru'>Kifuliiru</Link>
+          <Link class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-red mr-4 space-x-0.5 space-y-0.5" href='/kifuliiru'>Kifuliiru</Link>
+          <Link class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-red mr-4 space-x-0.5 space-y-0.5" href='/twehe'>Guno mukolwa</Link>
+          <Link class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-red mr-4 space-x-0.5 space-y-0.5" href='https://ibufuliiru.editorx.io/ibufuliiru/tuyandikire'>Tuyandikire</Link>
             
             {/* <a href={"/"} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
               Ndondeezo
@@ -33,7 +33,7 @@ const Navbar = () => {
             
           </div>
           <div>
-            <a href="https://ibufuliiru.editorx.io/imyazi/" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0" target="_blank">Gindi Myazi</a>
+            <a href="https://ibufuliiru.editorx.io/imyazi/" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-red hover:bg-white mt-4 lg:mt-0" target="_blank">Gindi Myazi</a>
           </div>
         </div>
       </nav>
