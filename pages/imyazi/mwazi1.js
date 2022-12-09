@@ -1,4 +1,5 @@
 import DefaultContainer from "../../components/DefaultContainer";
+import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 
 export default function Umwazi(){
@@ -6,6 +7,7 @@ export default function Umwazi(){
         <div>
             <Navbar/>
             <DefaultContainer/>
+            <Footer/>
             </div>
     );
 }

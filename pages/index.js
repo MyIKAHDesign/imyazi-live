@@ -78,6 +78,22 @@ export default function Home({ subscription }) {
           />
           <meta
             name="description"
+            content="Kifuliiru"
+          />
+          <meta
+            name="description"
+            content="i Kifuliiru"
+          />
+          <meta
+            name="description"
+            content="Fuliiru"
+          />
+          <meta
+            name="description"
+            content="Kifuliiru ndeto nyija. Kifuliiru ndeto ngale."
+          />
+          <meta
+            name="description"
             content="Imyazi ye Bufuliiru"
           />
           <meta
@@ -192,14 +208,14 @@ export default function Home({ subscription }) {
                       {post.content && (
                         <div className="p-4 md:p-8 md:text-xl content">
                           <ReactMarkdown children={post.content} />
+                          <div></div>
+                          <div>
+                            <Link class="p-4 md:p-8 md:text-xl content" href={`/imyazi/${encodeURIComponent(post.slug)}`}>
+                              <a>Soma bingi</a>
+                            </Link>
+                          </div>
                         </div>
                       )}
-
-                      {
-                        <Link class="p-4 md:p-8 md:text-xl content" href={`/imyazi/${encodeURIComponent(post.slug)}`}>
-                          <a>Soma bingi</a>
-                        </Link>
-                      }
 
                     </div>
                     <div className="mt-4 grid grid-cols-2 text-xs md:text-sm text-gray-500 md:px-8 items-center pb-12">
