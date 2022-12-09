@@ -208,7 +208,7 @@ export default function Home({ subscription }) {
                       {post.content && (
                         <div className="p-4 md:p-8 md:text-xl content">
                           <ReactMarkdown children={post.content} />
-                          <div></div>
+                          <br/>
                           <div>
                             <Link class="p-4 md:p-8 md:text-xl content" href={`/imyazi/${encodeURIComponent(post.slug)}`}>
                               <a>Soma bingi</a>
