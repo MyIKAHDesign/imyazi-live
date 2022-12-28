@@ -184,7 +184,7 @@ export default function Home({ subscription }) {
           </div>
         )}
 
-        <div className="flex mb-4 mx-auto my-12">
+        <div className="max-w-screen-sm mx-auto my-12">
           {data && (
             <TransitionGroup>
               {data.posts.map((post) => (
