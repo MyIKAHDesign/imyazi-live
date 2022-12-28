@@ -78,6 +78,10 @@ export default function Home({ subscription }) {
           />
           <meta
             name="description"
+            content="Imyazi mu Kifuliiru"
+          />
+          <meta
+            name="description"
             content="Kifuliiru"
           />
           <meta
@@ -180,7 +184,7 @@ export default function Home({ subscription }) {
           </div>
         )}
 
-        <div className="max-w-screen-sm mx-auto my-12">
+        <div className="flex mb-4 mx-auto my-12">
           {data && (
             <TransitionGroup>
               {data.posts.map((post) => (
