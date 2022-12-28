@@ -11,4 +11,8 @@ Guno mukolwa tugweti tugakoleesa inyumba ye'ndeto zene binabwenge kandi li frame
 Tugweti tugakola bweneene. Tuliri hingi ku zene.
 Kera twakola namuyehuulo Tumenye Ibufuliiru, Imyazi, Imyazi mu Kifuliiru, ne' gindi mikolwa mingi.
 
+# Kifuliiru
+
+Ino iliri ndeto imuganulwa na'bandu abatuziri Ibufuliiru mu Territoire ye Buvira (Uvira), mu province ye' Sud-Kivu mu kihugo kye' Congo (RDC).
+
 
