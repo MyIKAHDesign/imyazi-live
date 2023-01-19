@@ -8,12 +8,12 @@ Guno mukolwa mugwasiri ku mukolwa Tumenye Ibufuliiru ugukagwajikwa mu kulooza uk
 
 Guno mukolwa tugweti tugakoleesa inyumba ye'ndeto zene binabwenge kandi li framework NextJs ye React mu kuyubaka guno mukolwa. Tunabagage tugubisiri ku Vercel ukudeta kwo gukizihikira ngisi mundu yeshi hoshi hangabera aliri.
 
-# Igindi mikolwa yitu
+## Igindi mikolwa yitu
 
 Tugweti tugakola bweneene. Tuliri hingi ku zene.
 Kera twakola namuyehuulo Tumenye Ibufuliiru, Imyazi, Imyazi mu Kifuliiru, ne' gindi mikolwa mingi.
 
-# Kifuliiru
+## Kifuliiru
 
 Ino iliri ndeto imuganulwa na'bandu abatuziri Ibufuliiru mu Territoire ye Buvira (Uvira), mu province ye' Sud-Kivu mu kihugo kye' Congo (RDC).
 
