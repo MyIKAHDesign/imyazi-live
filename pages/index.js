@@ -68,7 +68,7 @@ export default function Home({ subscription }) {
       <div className="relative text-gray-700 body-font py-12 bg-gray-100 px-10">
         <Head>
           <title>
-            Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na
+          Imyazi mu Kifuliiru. Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na
             byooshi ikiri miduutu miduutu mu Kifuliiru
           </title>
           <link rel="icon" href="/favicon.ico" />

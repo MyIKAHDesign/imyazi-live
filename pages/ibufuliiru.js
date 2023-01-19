@@ -17,7 +17,27 @@ export default function Ibufuliiru() {
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
-            content="Ibufuliiru."
+            content="Ibufuliiru"
+          />
+          <meta
+            name="description"
+            content="Imwitu Ibufuliiru."
+          />
+          <meta
+            name="description"
+            content="Imwitu Ibufuliiru."
+          />
+          <meta
+            name="description"
+            content="Ibufuliiru imwitu"
+          />
+          <meta
+            name="description"
+            content="Imwitu"
+          />
+          <meta
+            name="description"
+            content="Ibufuliiru imwa Bafuliiru ne' Kifuliiru"
           />
           <meta
             name="description"

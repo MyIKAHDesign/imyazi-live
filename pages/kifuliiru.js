@@ -16,6 +16,26 @@ export default function Kifuliiru() {
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
+            content="Kifuliiru"
+          />
+           <meta
+            name="description"
+            content="Kifuliiru ndeto yitu"
+          />
+           <meta
+            name="description"
+            content="Ndeto yitu Kifuliiru"
+          />
+           <meta
+            name="description"
+            content="Tumuganuula i Kifuliiru"
+          />
+           <meta
+            name="description"
+            content="Ndeto yitu Kifuliiru"
+          />
+          <meta
+            name="description"
             content="Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi ikiri miduutu miduutu mu Kifuliiru"
           />
           <meta
@@ -46,7 +66,7 @@ export default function Kifuliiru() {
 
        
       </div>
-      <DefaultContainer/>
+      <DefaultContainer title='Kifuliiru ndeto yitu' details='Kifuliiru ndeto ngale' />
       <Footer />
     </div>
   );
