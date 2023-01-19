@@ -1,4 +1,6 @@
-# Muyegerere.
+#Imyazi mu Kifuliiru
+
+## Muyegerere.
 
 Guno mukolwa guliri hano higulu gututabaale tulonge ibindu bingi mu Kifuliiru. Guno mukolwa gugatutabaala tukiziyuvwa no kulonga imyazi mu ndeto yitu Kifuliiru.
 
