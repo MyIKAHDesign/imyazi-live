@@ -71,7 +71,7 @@ export default function Home({ subscription }) {
           Imyazi mu Kifuliiru. Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na
             byooshi ikiri miduutu miduutu mu Kifuliiru
           </title>
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/public/favicon.ico" />
           <meta
             name="description"
             content="Imyazi"
