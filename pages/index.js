@@ -64,14 +64,14 @@ export default function Home({ subscription }) {
 
   return (
     <div>
-      <Navbar />
+    //<Navbar />
       <div className="relative text-gray-700 body-font py-12 bg-gray-100 px-10">
         <Head>
           <title>
           Imyazi mu Kifuliiru. Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na
             byooshi ikiri miduutu miduutu mu Kifuliiru
           </title>
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/public/favicon.ico" />
           <meta
             name="description"
             content="Imyazi"
