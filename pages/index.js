@@ -68,83 +68,20 @@ export default function Home({ subscription }) {
       <div className="relative text-gray-700 body-font py-12 bg-gray-100 px-10">
         <Head>
           <title>
-          Imyazi mu Kifuliiru. Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na
-            byooshi ikiri miduutu miduutu mu Kifuliiru
+          Imyazi | Imyazi mu Kifuliiru | Tulonge imyazi ye'Kifuliiru, ya'Bafuliiru, ye'Bufuliiru na handi hoshi na
+            byooshi mu Kifuliiru
           </title>
           <link rel="icon" href="/public/favicon.ico" />
           <meta
             name="description"
-            content="Imyazi"
+            content="Imyazi or Imyazi mu Kifuliiru is a website designated to inform people in the Kifuliiru laguage. 
+            The main language is Kifuliiru. We may also write in other languages but our goal is to promote the Kifuliiru language.
+            This project was initiated by Ayivugwe Kabemba Mukome, who also has initiated many other 
+            projects for the promotion of the Kifuliiru language like Ibufuliiru or Tumenye Ibufuliiru, Kifuliiru, Imyazi, Radio Ibufuliiru, Radio Ibufuliiru Podcast, 
+            Fuliiru Hub, Tuyandike i Kifuliiru, Tusome i Kifuliiru, Kifuliiru Podcast, Ful;iiru Press, and many other projects.
+            If you would like to work with us for the promotion and creation of digital content for the Kifuliiru language, you are welcome."
           />
-          <meta
-            name="description"
-            content="Imyazi mu Kifuliiru"
-          />
-          <meta
-            name="description"
-            content="Kifuliiru"
-          />
-          <meta
-            name="description"
-            content="i Kifuliiru"
-          />
-          <meta
-            name="description"
-            content="Fuliiru"
-          />
-          <meta
-            name="description"
-            content="Kifuliiru ndeto nyija. Kifuliiru ndeto ngale."
-          />
-          <meta
-            name="description"
-            content="Imyazi ye Bufuliiru"
-          />
-          <meta
-            name="description"
-            content="Imyazi ye Bufuliiru mu Kifuliiru"
-          />
-          <meta
-            name="description"
-            content="Imyazi ye Bufuliiru, Bafuliiru ne Kifuliiru mu Kifuliiru"
-          />
-          <meta
-            name="description"
-            content="Imyazi ye' mwitu"
-          />
-          <meta
-            name="description"
-            content="Imwitu Ibufuliiru"
-          />
-          <meta
-            name="description"
-            content="Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi ikiri miduutu miduutu mu Kifuliiru"
-          />
-          <meta
-            name="description"
-            content="Kifuliiru. Tulonge imyazi ye Kifuliiru, Bafuliiru, Ibufuliiru na hoshi na byooshi ikiri miduutu miduutu mu Kifuliiru"
-          />
-          <meta
-            name="description"
-            content="Ibufuliiru. Bufuliiru. I Bufuliiru. Imwitu Bufuliiru. Imwitu Ibufuliiru. Tulonge imyazi ye Bufuliiru, Bafuliiru, na hoshi na byooshi ikiri miduutu miduutu mu Kifuliiru"
-          />
-          <meta
-            name="description"
-            content="Congo. Tulonge imyazi ye Congo, Bafuliiru, na hoshi na byooshi ikiri miduutu miduutu mu Kifuliiru"
-          />
-          <meta
-            name="description"
-            content="Twehe. Longa imyazi mingi ku guno mukolwa. Tuliri Bafuliiru, tolozizi tuhise hala indeto yitu Kifuliiru."
-          />
-          <meta
-            name="description"
-            content="Bafuliiru. Tulonge imyazi ye Bufuliiru, Bafuliiru, na hoshi na byooshi ikiri miduutu miduutu mu Kifuliiru"
-          />
-          <meta
-            name="description"
-            content="Imikolwa yitu. Tulonge imyazi ye mikolwa ya'Bafuliiru mu Kifuliiru namu zindi ndeto zooshi. Imikolwa kwoshi kwo yangaba iliri. Tuyegerere tumenye bingi. Konbwa bweneene"
-          />
-
+         
           <meta property="og:url" content="https://imyazimukifuliiru.vercel.app/" />
           <meta property="og:type" content="article" />
           <meta property="og:title" content="Imyazi mu Kifuliiru. Myazi ye'Bufuliiru na handi hoshi." />
