@@ -5,8 +5,6 @@ import { Image, useQuerySubscription } from "react-datocms";
 import TimeAgo from "react-timeago";
 import ReactMarkdown from "react-markdown";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 
 export async function getServerSideProps() {
   const graphqlRequest = {
@@ -179,7 +177,6 @@ export default function Home({ subscription }) {
             </TransitionGroup>
           )}
         </div>
-        <Footer />
       </div>
     </div>
   );
