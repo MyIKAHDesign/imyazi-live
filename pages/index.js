@@ -64,7 +64,6 @@ export default function Home({ subscription }) {
 
   return (
     <div>
-    //<Navbar />
       <div className="relative text-gray-700 body-font py-12 bg-gray-100 px-10">
         <Head>
           <title>
